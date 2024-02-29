@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header .navi {
     display: flex;
     justify-content: space-between;
     padding: 0 150px 0 0;
+    background-color: rgb(197, 187, 187);
+    margin-bottom: 30px;
 }
 
 header .navi .menu ul {
@@ -56,7 +63,7 @@ header .container .first .title1 {
 
 header .container .first .subtitle {
     position: relative;
-    top: -50px;
+    top: -40px;
     color: grey;
     opacity: 0.6;
 }
@@ -179,7 +186,7 @@ section .container3 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin: 100px 60px 60px 60px;
-    border: 6px solid rgb(234, 234, 17);
+    border: 4px solid black;
     padding: 15px;
     width: auto;
 }
@@ -201,4 +208,79 @@ section .container3 .service {
 
 section .container3 .service span {
     background-color: rgb(234, 234, 17);
+}
+
+
+
+
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    font-family: oswald;
+    margin-bottom: 30px;
+}
+.container4 .github{
+    font-family: oswald;
+    font-size: 35px;
+    border-radius: 13px;
+    background-color: rgb(234, 234, 17);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.projects .box{
+    border: 4px solid black;
+    width: 30%;
+    margin-top: 15px;
+    height: 300px;
+}
+
+
+
+
+
+footer .container5{
+    background-color: rgb(197, 187, 187);
+    display: flex;
+    justify-content: space-around;
+}
+footer .container5 .privacy{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    font-size: 20px;
+    font-family: oswald;
+}
+footer .container5 .privacy a{
+    text-decoration: none;
+    color: black;
+}
+footer .container5 .privacy a:hover{
+    background-color: rgb(234, 234, 17);
+}
+footer .container5 .footercontact{
+    font-size: 18px;
+    font-family: oswald;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .container5 .footercontact .btfooter{
+    font-family: oswald;
+    font-size: 25px;
+    border-radius: 13px;
+    background-color: rgb(234, 234, 17);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
 }
