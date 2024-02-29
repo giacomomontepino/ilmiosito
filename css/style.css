@@ -1,0 +1,204 @@
+header .navi {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 0;
+}
+
+header .navi .menu ul {
+    display: flex;
+    padding-top: 40px;
+    font-family: oswald;
+}
+
+header .navi .menu li {
+    list-style: none;
+    color: black;
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+}
+
+header .navi .menu a {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+header .navi .menu a:hover {
+    color: rgb(234, 234, 17);
+    background-color: rgb(234, 234, 17);
+}
+
+header .container {
+    display: flex;
+    padding: 0 50px 0 50px;
+    font-family: oswald;
+}
+
+header h2 {
+    padding-bottom: 60px;
+}
+
+header .container .title1 .yellow {
+    color: rgb(234, 234, 17);
+    position: relative;
+    top: -20px;
+}
+
+@media screen and (max-width: 1000px){
+    header .container .title1 .yellow{
+        display: flex;
+    }
+}
+
+header .container .first .title1 {
+    font-size: 65px;
+}
+
+header .container .first .subtitle {
+    position: relative;
+    top: -50px;
+    color: grey;
+    opacity: 0.6;
+}
+
+header .container .container2 {
+    display: flex;
+}
+
+header .container .container2 .box1 {
+    position: relative;
+    top: -30px;
+}
+
+header .container .container2 .box2 {
+    position: relative;
+    top: -50px;
+}
+
+header .container .container2 .box3 {
+    position: relative;
+    top: -60px;
+}
+@media screen and (max-width:480px) {
+    header .container .container2 .box3{
+        position: absolute;
+        top: 720px;
+        left: 90px;
+    }
+}
+
+header .container .first .button .contact {
+    font-family: oswald;
+    font-size: 35px;
+    position: relative;
+    top: -40px;
+    border-radius: 13px;
+    background-color: rgb(234, 234, 17);
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media screen and (max-width:480px){
+    header .container .first .button{
+        position: relative;
+        top: 28px;
+    }
+}
+
+header .container .second {
+    background-color: black;
+    width: 60%;
+    border-radius: 20px;
+    color: white;
+    padding: 40px;
+    font-size: 28px;
+    background-position: right;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    header .container .second {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    header .container {
+        display: block;
+    }
+}
+
+header .container .second .title2 {
+    color: rgb(234, 234, 17);
+}
+
+header .container .second .social {
+    display: flex;
+    justify-content: left;
+    padding-left: 80px;
+}
+
+header .container .second .social .ig {
+    position: relative;
+    top: 23px;
+    left: -20px;
+}
+
+@media screen and (max-width:1000px){
+    header .container .second .social{
+        justify-content: left;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    header .container{
+        margin-right: 30px;
+    }
+    header .container .second{
+        display: flex;
+    }
+    header .container .second .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .container .second .social .ig{
+        position: relative;
+        left: 3px;
+        top: -10px;
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
+section .container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 100px 60px 60px 60px;
+    border: 6px solid rgb(234, 234, 17);
+    padding: 15px;
+    width: auto;
+}
+
+@media screen and (max-width:730px) {
+    section .container3{
+        display: block;
+        padding-left: 20px;
+        margin-left: 50px;
+    }
+}
+
+section .container3 .service {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: oswald;
+}
+
+section .container3 .service span {
+    background-color: rgb(234, 234, 17);
+}
