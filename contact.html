@@ -54,17 +54,25 @@
     <section>
         <div class="container">
             <h1>Modulo contatto</h1>
-            <form action="" method="post">
-                <label for="name">Nome</label>
+            <form class="contact" action="" method="post">
+                <label class="box1" for="name">Nome</label>
                 <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Come posso aiutarti?</label>
+                <label class="box2" for="email">Email</label>
+                <input type="email" id="email" name="email" :required>
+                <label class="box3" for="message">Come posso aiutarti?</label>
                 <textarea id="message" name="message" required></textarea>
-                <button onclick="sendmail()" type="button">Invia</button>
+                <button class="button" onclick="sendmail()" type="button">Invia</button>
             </form>
         </div>
     </section>
+    <footer>
+        <div class="container5">
+            <div class="privacy">
+                <a href="/privacypolice.html">Privacy Police</a>
+                <a href="/termsandcondition.html">Terms and Condition</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
